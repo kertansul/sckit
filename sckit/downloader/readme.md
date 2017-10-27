@@ -1,7 +1,7 @@
 
 ## Google Drive Downloader
 ### Quick Start
-* Follow the steps in [https://developers.google.com/drive/v3/web/quickstart/python](Google Drive APIs Python Quickstart)
+* Follow the steps in [Google Drive APIs Python Quickstart](https://developers.google.com/drive/v3/web/quickstart/python)
 ### Code
 ```
 import sckit.downloader.google as scg
