@@ -5,3 +5,4 @@
 __pycache__
 dist/
 build/
+sckit/downloader/client_secret.json
