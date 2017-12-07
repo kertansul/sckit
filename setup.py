@@ -6,4 +6,8 @@ setup(
     author='Shawn Chen',
     author_email='kertansul@gmail.com',
     zip_safe=False,
+    install_requires=[
+        "httplib2>=0.10.3",
+        "google-api-python-client"
+    ]
 )
