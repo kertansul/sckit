@@ -12,7 +12,7 @@ from googleapiclient.http import MediaIoBaseDownload
 
 # If modifying these scopes, delete your previously saved credentials
 # at ~/.credentials/drive-python-quickstart.json
-SCOPES = 'https://www.googleapis.com/auth/drive.metadata.readonly'
+SCOPES = 'https://www.googleapis.com/auth/drive.readonly'
 CLIENT_SECRET_FILE = 'client_secret.json'
 APPLICATION_NAME = 'Kertansul\'s Google Drive API'
 
@@ -36,7 +36,6 @@ def get_credentials( flags=None ):
 
     store = Storage(credential_path)
     credentials = store.get()
-    credentials = None
     if not credentials or credentials.invalid:
         flow = client.flow_from_clientsecrets(CLIENT_SECRET_FILE, SCOPES)
         flow.user_agent = APPLICATION_NAME
